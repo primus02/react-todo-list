@@ -1,0 +1,243 @@
+.App{
+  background-color: rgb(233, 222, 222);
+  min-height: 100vh;
+  position: relative;
+}
+nav{
+  background-color: rgb(77, 4, 4);
+  width: 100%;
+  padding: 10px;
+  display: flex;
+}
+nav ul{
+  text-align: right;
+  width: 70%;
+  padding-top: 10px;
+}
+nav ul li{
+   display: inline-block;
+   color: white;
+   list-style: none;
+   cursor: pointer;
+   text-transform: uppercase;
+   margin-right: 50px;
+   font-weight: 700;
+}
+.logo{
+  width: 30%;
+}
+.logo img{
+   width: 50px;
+   text-align: left;
+}
+.container{
+  padding: 10px;
+  text-align: center;
+}
+.title{
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+.access-account{
+  margin-bottom: 20px;
+}
+.sign-up{
+  color: red;
+}
+.log-in{
+  color: green;
+}
+.profile-btn{
+  text-align: center;
+}
+.info{
+  width: 50%;
+  margin: 10px auto;
+}
+.info h4{
+  margin-bottom: 10px;
+}
+.info ul{
+   text-align: left;
+   padding-left: 40px;
+}
+  footer{
+  text-align: center;
+  background-color: rgb(77, 4, 4);
+  color: white;
+  width: 100%;
+  height: 80px;
+  padding-top: 30px;
+  /* position: absolute;
+  bottom: 0; */
+}
+form{
+  padding: 20px;
+  text-align: right;
+}
+form p{
+  margin-bottom: 10px;
+}
+form input{
+  padding: 5px;
+  text-align: left;
+  height: 30px;
+}
+form label{
+  margin-right: 10px;
+}
+button{
+  width: 150px;
+  height: 30px;
+  padding: 8px;
+}
+.profile, .todo-details{
+  width: 500px;
+  margin: 20px;
+  padding: 10px;
+  height: 200px;
+  border: 3px solid grey;
+}
+.todo-details{
+  margin: 20px auto;
+  min-height: 250px;
+}
+.todo-details p{
+  margin-top: 50px;
+  text-align: center;
+}
+.profile h3{
+  margin-bottom: 20px;
+}
+.profile span, .todo-details span{
+  color: rgb(218, 62, 88);
+}
+.sign-out{
+  margin-left: 10px;
+}
+.todo-icons{
+  width: 500px;
+  margin: 20px;
+  text-align: center;
+}
+.todo-icons button:first-child{
+  margin-right: 10px;
+}
+.todo-icons button{
+  cursor: pointer;
+  height: 30px;
+  padding: 0;
+  font-weight: 700;
+}
+.todo-container, .todo-container1{
+  width: 700px;
+  margin: 20px auto;
+}
+.todo-container h1{
+  text-align: center;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+.todo-container1,.modal-container, .sign, .contact, .select, .container, .todo-container, .profile-container{
+  min-height: 77vh;
+}
+.filter{
+  margin-right: 5px;
+}
+.todo-container label{
+  font-weight: 500;
+}
+.todo-item{
+  display: flex;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background-color: coral;
+  padding: 5px;
+}
+.todo-item h3{
+  width: 50%;
+  text-align: left;
+}
+.todo-item p{
+  text-align: center;
+  margin-left: 5px;
+}
+.todo-item button{
+  width: 100px;
+}
+.todo-item input{
+  margin-top: 7px;
+  margin-right: 10px;
+}
+.todo-form{
+  text-align: center;
+}
+.todo-form input{
+  width: 500px;
+  margin-bottom: 10px;
+}
+.todo-form button{
+  width: 300px;
+  cursor: pointer;
+}
+.executed{
+  text-decoration: line-through;
+  opacity: 0.4;
+}
+button{
+  cursor: pointer;
+}
+.select span{
+  color: darkred;
+}
+.modal{
+  width: 700px;
+  text-align: center;
+  border: 1px solid grey;
+  padding: 10px;
+  background-color: rgb(133, 128, 128);
+  position: absolute;
+  left: 50%;
+  top: 80px;
+  transform: translateX(-50%);
+  transition: transform 5s ease-in-out;
+}
+.modal form{
+  text-align: center;
+  width: 250px;
+  margin: 10px auto;
+}
+.close{
+  margin-bottom:50px;
+}
+.close button{
+  color: red;
+}
+.users-container{
+  width: 800px;
+  margin: 20px auto;
+  background-color: white;
+  min-height: 500px;
+  padding: 20px;
+}
+.users-info{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  
+}
+.user{
+  width: 240px;
+  border: 1px solid grey;
+  height: 100px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(245, 235, 235);
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.add{
+  text-align: center;
+}
